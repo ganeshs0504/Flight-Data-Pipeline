@@ -1,12 +1,14 @@
 # Flight Data Pipeline Project
 
-This project focuses on analyzing flight delay data from the Kaggle dataset to build a dashboard in Google Looker Studio. The goal is to provide insights into flight delays based on various parameters such as origin, destination, airlines, and more.
+This project focuses on building a data pipeline on the cloud using a combination of tools to analyze flight delay data from the Kaggle dataset to build a dashboard in Google Looker Studio. The goal is to provide insights into flight delays based on various parameters such as origin, destination, airlines, and more.
 
 ## Project Overview
 
 The end result of this project is a **Flight Delays Dashboard**, which provides a visual representation of key flight delay metrics such as average departure and arrival delays. The dashboard, as seen below, is hosted on Google Looker Studio, showing trends across multiple airports and time periods.
 
-![Flight Delays Dashboard](path_to_image/Dashboard_screenshot_1.png)
+
+![Pipeline Arch](https://github.com/user-attachments/assets/a908dc1b-ea01-4def-a4ec-99fc77a3d552)
+
 
 ## Data Source
 
