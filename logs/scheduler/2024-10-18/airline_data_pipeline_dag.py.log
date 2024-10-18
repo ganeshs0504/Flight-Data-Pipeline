@@ -1,0 +1,728 @@
+[2024-10-18T12:59:06.902+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T12:59:06.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T12:59:06.904+0000] {logging_mixin.py:190} INFO - [2024-10-18T12:59:06.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T12:59:06.914+0000] {logging_mixin.py:190} INFO - [2024-10-18T12:59:06.913+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airline_data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airline_data_pipeline_dag.py", line 8
+    description)
+               ^
+SyntaxError: positional argument follows keyword argument
+[2024-10-18T12:59:06.915+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T12:59:06.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.033 seconds
+[2024-10-18T12:59:37.115+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T12:59:37.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T12:59:37.119+0000] {logging_mixin.py:190} INFO - [2024-10-18T12:59:37.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T12:59:37.133+0000] {logging_mixin.py:190} INFO - [2024-10-18T12:59:37.132+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airline_data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airline_data_pipeline_dag.py", line 8
+    description)
+               ^
+SyntaxError: positional argument follows keyword argument
+[2024-10-18T12:59:37.135+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T12:59:37.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.044 seconds
+[2024-10-18T13:00:07.324+0000] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:00:07.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:00:07.328+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:00:07.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:00:07.340+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:00:07.339+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airline_data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airline_data_pipeline_dag.py", line 8
+    description)
+               ^
+SyntaxError: positional argument follows keyword argument
+[2024-10-18T13:00:07.341+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:00:07.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.037 seconds
+[2024-10-18T13:00:37.534+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:00:37.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:00:37.536+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:00:37.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:00:37.545+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:00:37.544+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airline_data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airline_data_pipeline_dag.py", line 8
+    description)
+               ^
+SyntaxError: positional argument follows keyword argument
+[2024-10-18T13:00:37.545+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:00:37.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.031 seconds
+[2024-10-18T13:01:07.750+0000] {processor.py:186} INFO - Started process (PID=218) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:01:07.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:01:07.753+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:01:07.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:01:07.768+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:01:07.767+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airline_data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airline_data_pipeline_dag.py", line 8
+    description)
+               ^
+SyntaxError: positional argument follows keyword argument
+[2024-10-18T13:01:07.769+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:01:07.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.039 seconds
+[2024-10-18T13:01:37.957+0000] {processor.py:186} INFO - Started process (PID=229) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:01:37.957+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:01:37.959+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:01:37.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:01:37.972+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:01:37.970+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airline_data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airline_data_pipeline_dag.py", line 8
+    description)
+               ^
+SyntaxError: positional argument follows keyword argument
+[2024-10-18T13:01:37.973+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:01:37.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.037 seconds
+[2024-10-18T13:02:08.168+0000] {processor.py:186} INFO - Started process (PID=240) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:02:08.169+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:02:08.171+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:02:08.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:02:08.183+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:02:08.182+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airline_data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airline_data_pipeline_dag.py", line 8
+    description)
+               ^
+SyntaxError: positional argument follows keyword argument
+[2024-10-18T13:02:08.184+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:02:08.202+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.038 seconds
+[2024-10-18T13:02:38.380+0000] {processor.py:186} INFO - Started process (PID=251) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:02:38.381+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:02:38.384+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:02:38.383+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:02:38.398+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:02:38.397+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airline_data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airline_data_pipeline_dag.py", line 8
+    description)
+               ^
+SyntaxError: positional argument follows keyword argument
+[2024-10-18T13:02:38.398+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:02:38.413+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.038 seconds
+[2024-10-18T13:03:08.598+0000] {processor.py:186} INFO - Started process (PID=262) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:03:08.599+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:03:08.601+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:03:08.601+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:03:08.613+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:03:08.611+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airline_data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airline_data_pipeline_dag.py", line 8
+    description)
+               ^
+SyntaxError: positional argument follows keyword argument
+[2024-10-18T13:03:08.613+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:03:08.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.036 seconds
+[2024-10-18T13:03:38.815+0000] {processor.py:186} INFO - Started process (PID=273) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:03:38.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:03:38.818+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:03:38.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:03:38.832+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:03:38.831+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airline_data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airline_data_pipeline_dag.py", line 8
+    description)
+               ^
+SyntaxError: positional argument follows keyword argument
+[2024-10-18T13:03:38.833+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:03:38.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.045 seconds
+[2024-10-18T13:04:09.037+0000] {processor.py:186} INFO - Started process (PID=284) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:04:09.038+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:04:09.040+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:09.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:04:09.051+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:09.050+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airline_data_pipeline_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airline_data_pipeline_dag.py", line 8
+    description)
+               ^
+SyntaxError: positional argument follows keyword argument
+[2024-10-18T13:04:09.052+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:04:09.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.036 seconds
+[2024-10-18T13:04:26.200+0000] {processor.py:186} INFO - Started process (PID=295) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:04:26.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:04:26.203+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:26.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:04:26.232+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:26.231+0000] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 197, in get_source
+    pieces = split_template_path(template)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 36, in split_template_path
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../load_data_utils/structure_files_by_year.sh
+[2024-10-18T13:04:26.244+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:04:26.446+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:26.445+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:pipeline_dag
+[2024-10-18T13:04:26.459+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:26.458+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:pipeline_dag
+[2024-10-18T13:04:26.468+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:26.467+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:pipeline_dag
+[2024-10-18T13:04:26.479+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:26.478+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:pipeline_dag
+[2024-10-18T13:04:26.487+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:26.487+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:pipeline_dag
+[2024-10-18T13:04:26.495+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:26.495+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:pipeline_dag
+[2024-10-18T13:04:26.503+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:26.503+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:pipeline_dag
+[2024-10-18T13:04:26.504+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:26.504+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:04:26.517+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:26.517+0000] {dag.py:3262} INFO - Creating ORM DAG for pipeline_dag
+[2024-10-18T13:04:26.528+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:26.528+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-18T13:04:26.704+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.509 seconds
+[2024-10-18T13:04:56.944+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:04:56.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:04:56.949+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:56.948+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:04:56.970+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:56.969+0000] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 197, in get_source
+    pieces = split_template_path(template)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 36, in split_template_path
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../load_data_utils/structure_files_by_year.sh
+[2024-10-18T13:04:56.976+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:04:57.001+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:57.001+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:04:57.029+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:04:57.028+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:04:57.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.112 seconds
+[2024-10-18T13:05:27.140+0000] {processor.py:186} INFO - Started process (PID=320) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:05:27.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:05:27.144+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:05:27.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:05:27.161+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:05:27.160+0000] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 197, in get_source
+    pieces = split_template_path(template)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 36, in split_template_path
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../load_data_utils/structure_files_by_year.sh
+[2024-10-18T13:05:27.165+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:05:27.184+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:05:27.184+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:05:27.204+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:05:27.204+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:05:27.223+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.087 seconds
+[2024-10-18T13:05:57.342+0000] {processor.py:186} INFO - Started process (PID=331) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:05:57.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:05:57.345+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:05:57.345+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:05:57.361+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:05:57.360+0000] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 197, in get_source
+    pieces = split_template_path(template)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 36, in split_template_path
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../load_data_utils/structure_files_by_year.sh
+[2024-10-18T13:05:57.365+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:05:57.386+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:05:57.386+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:05:57.406+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:05:57.406+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:05:57.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.089 seconds
+[2024-10-18T13:06:27.626+0000] {processor.py:186} INFO - Started process (PID=342) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:06:27.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:06:27.629+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:06:27.629+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:06:27.645+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:06:27.644+0000] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 197, in get_source
+    pieces = split_template_path(template)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 36, in split_template_path
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../load_data_utils/structure_files_by_year.sh
+[2024-10-18T13:06:27.648+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:06:27.666+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:06:27.665+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:06:27.686+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:06:27.685+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:06:27.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.081 seconds
+[2024-10-18T13:06:57.846+0000] {processor.py:186} INFO - Started process (PID=353) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:06:57.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:06:57.848+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:06:57.848+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:06:57.866+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:06:57.866+0000] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 197, in get_source
+    pieces = split_template_path(template)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 36, in split_template_path
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../load_data_utils/structure_files_by_year.sh
+[2024-10-18T13:06:57.871+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:06:57.889+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:06:57.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:06:57.908+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:06:57.908+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:06:57.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.085 seconds
+[2024-10-18T13:07:28.117+0000] {processor.py:186} INFO - Started process (PID=364) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:07:28.118+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:07:28.120+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:07:28.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:07:28.138+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:07:28.137+0000] {templater.py:94} ERROR - Failed to resolve template field 'bash_command'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 197, in get_source
+    pieces = split_template_path(template)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 36, in split_template_path
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ../load_data_utils/structure_files_by_year.sh
+[2024-10-18T13:07:28.142+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:07:28.163+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:07:28.162+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:07:28.182+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:07:28.182+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:07:28.203+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.090 seconds
+[2024-10-18T13:07:31.169+0000] {processor.py:186} INFO - Started process (PID=369) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:07:31.170+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:07:31.171+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:07:31.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:07:31.197+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:07:31.285+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:07:31.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:07:31.303+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:07:31.303+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:07:31.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.290 seconds
+[2024-10-18T13:07:45.577+0000] {processor.py:186} INFO - Started process (PID=374) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:07:45.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:07:45.580+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:07:45.580+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:07:45.609+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:07:45.623+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:07:45.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:07:45.647+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:07:45.647+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:07:45.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.100 seconds
+[2024-10-18T13:08:02.707+0000] {processor.py:186} INFO - Started process (PID=385) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:08:02.708+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:08:02.710+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:08:02.710+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:08:02.736+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag1' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:08:02.826+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:08:02.825+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:pipeline_dag1
+[2024-10-18T13:08:02.836+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:08:02.836+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:pipeline_dag1
+[2024-10-18T13:08:02.844+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:08:02.843+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:pipeline_dag1
+[2024-10-18T13:08:02.853+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:08:02.852+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:pipeline_dag1
+[2024-10-18T13:08:02.861+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:08:02.861+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:pipeline_dag1
+[2024-10-18T13:08:02.869+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:08:02.868+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:pipeline_dag1
+[2024-10-18T13:08:02.877+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:08:02.876+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:pipeline_dag1
+[2024-10-18T13:08:02.877+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:08:02.877+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:08:03.033+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:08:03.033+0000] {dag.py:3262} INFO - Creating ORM DAG for pipeline_dag1
+[2024-10-18T13:08:03.042+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:08:03.041+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag1 to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-18T13:08:03.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.361 seconds
+[2024-10-18T13:08:33.275+0000] {processor.py:186} INFO - Started process (PID=400) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:08:33.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:08:33.278+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:08:33.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:08:33.297+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag1' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:08:33.316+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:08:33.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:08:33.335+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:08:33.335+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag1 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:08:33.352+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.083 seconds
+[2024-10-18T13:09:03.498+0000] {processor.py:186} INFO - Started process (PID=411) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:09:03.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:09:03.502+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:09:03.502+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:09:03.522+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag1' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:09:03.547+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:09:03.547+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:09:03.572+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:09:03.571+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag1 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:09:03.591+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.100 seconds
+[2024-10-18T13:09:33.775+0000] {processor.py:186} INFO - Started process (PID=422) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:09:33.775+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:09:33.777+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:09:33.776+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:09:33.797+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag1' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:09:33.817+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:09:33.817+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:09:33.839+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:09:33.839+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag1 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:09:33.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.085 seconds
+[2024-10-18T13:10:03.993+0000] {processor.py:186} INFO - Started process (PID=433) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:10:03.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:10:03.995+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:03.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:10:04.013+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag1' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:10:04.031+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:04.031+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:10:04.050+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:04.050+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag1 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:10:04.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.078 seconds
+[2024-10-18T13:10:34.248+0000] {processor.py:186} INFO - Started process (PID=444) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:10:34.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:10:34.250+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:34.250+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:10:34.275+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag1' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:10:34.300+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:34.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:10:34.323+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:34.323+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag1 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:10:34.340+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.096 seconds
+[2024-10-18T13:10:43.355+0000] {processor.py:186} INFO - Started process (PID=449) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:10:43.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:10:43.357+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:43.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:10:43.382+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag1' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:10:43.485+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:43.485+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:10:43.643+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:43.643+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag1 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:10:43.665+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.315 seconds
+[2024-10-18T13:10:46.466+0000] {processor.py:186} INFO - Started process (PID=454) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:10:46.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:10:46.469+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:46.468+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:10:46.498+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag2' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:10:46.591+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:46.590+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:pipeline_dag2
+[2024-10-18T13:10:46.601+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:46.601+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:pipeline_dag2
+[2024-10-18T13:10:46.608+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:46.608+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:pipeline_dag2
+[2024-10-18T13:10:46.617+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:46.617+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:pipeline_dag2
+[2024-10-18T13:10:46.625+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:46.625+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:pipeline_dag2
+[2024-10-18T13:10:46.633+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:46.633+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:pipeline_dag2
+[2024-10-18T13:10:46.641+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:46.640+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:pipeline_dag2
+[2024-10-18T13:10:46.641+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:46.641+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:10:46.653+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:46.653+0000] {dag.py:3262} INFO - Creating ORM DAG for pipeline_dag2
+[2024-10-18T13:10:46.781+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:10:46.781+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag2 to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-18T13:10:46.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.337 seconds
+[2024-10-18T13:11:16.925+0000] {processor.py:186} INFO - Started process (PID=469) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:11:16.926+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:11:16.927+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:16.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:11:16.944+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag2' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:11:16.964+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:16.964+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:11:16.987+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:16.987+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag2 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:11:17.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.085 seconds
+[2024-10-18T13:11:23.072+0000] {processor.py:186} INFO - Started process (PID=474) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:11:23.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:11:23.074+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:23.073+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:11:23.096+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/airline_data_pipeline_dag.py:19 SyntaxWarning: invalid escape sequence '\D'
+[2024-10-18T13:11:23.101+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag2' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:11:23.179+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:23.178+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:11:23.335+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:23.335+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag2 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:11:23.353+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.286 seconds
+[2024-10-18T13:11:31.146+0000] {processor.py:186} INFO - Started process (PID=485) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:11:31.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:11:31.148+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:31.148+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:11:31.173+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/airline_data_pipeline_dag.py:19 SyntaxWarning: invalid escape sequence '\D'
+[2024-10-18T13:11:31.178+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag3' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:11:31.270+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:31.269+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:pipeline_dag3
+[2024-10-18T13:11:31.417+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:31.417+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:pipeline_dag3
+[2024-10-18T13:11:31.427+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:31.426+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:pipeline_dag3
+[2024-10-18T13:11:31.438+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:31.438+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:pipeline_dag3
+[2024-10-18T13:11:31.447+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:31.446+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:pipeline_dag3
+[2024-10-18T13:11:31.455+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:31.455+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:pipeline_dag3
+[2024-10-18T13:11:31.464+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:31.464+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:pipeline_dag3
+[2024-10-18T13:11:31.465+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:31.465+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:11:31.476+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:31.476+0000] {dag.py:3262} INFO - Creating ORM DAG for pipeline_dag3
+[2024-10-18T13:11:31.485+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:11:31.485+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag3 to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-18T13:11:31.504+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.362 seconds
+[2024-10-18T13:12:01.636+0000] {processor.py:186} INFO - Started process (PID=500) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:12:01.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:12:01.639+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:12:01.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:12:01.658+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag3' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:12:01.685+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:12:01.684+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:12:01.712+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:12:01.711+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag3 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:12:01.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.104 seconds
+[2024-10-18T13:12:31.921+0000] {processor.py:186} INFO - Started process (PID=511) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:12:31.922+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:12:31.923+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:12:31.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:12:31.942+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag3' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:12:31.967+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:12:31.966+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:12:31.991+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:12:31.990+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag3 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:12:32.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.097 seconds
+[2024-10-18T13:13:02.152+0000] {processor.py:186} INFO - Started process (PID=522) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:13:02.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:13:02.154+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:02.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:13:02.173+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag3' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:13:02.196+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:02.196+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:13:02.217+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:02.216+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag3 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:13:02.245+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.099 seconds
+[2024-10-18T13:13:06.266+0000] {processor.py:186} INFO - Started process (PID=527) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:13:06.267+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:13:06.268+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:06.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:13:06.296+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag3' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:13:06.316+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:06.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:13:06.340+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:06.340+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag3 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:13:06.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.104 seconds
+[2024-10-18T13:13:08.338+0000] {processor.py:186} INFO - Started process (PID=532) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:13:08.338+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:13:08.340+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:08.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:13:08.374+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag4' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:13:08.489+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:08.488+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:pipeline_dag4
+[2024-10-18T13:13:08.501+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:08.501+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:pipeline_dag4
+[2024-10-18T13:13:08.509+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:08.509+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:pipeline_dag4
+[2024-10-18T13:13:08.520+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:08.519+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:pipeline_dag4
+[2024-10-18T13:13:08.527+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:08.527+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:pipeline_dag4
+[2024-10-18T13:13:08.535+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:08.535+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:pipeline_dag4
+[2024-10-18T13:13:08.544+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:08.544+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:pipeline_dag4
+[2024-10-18T13:13:08.545+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:08.545+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:13:08.556+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:08.556+0000] {dag.py:3262} INFO - Creating ORM DAG for pipeline_dag4
+[2024-10-18T13:13:08.567+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:08.566+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag4 to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-18T13:13:08.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.383 seconds
+[2024-10-18T13:13:38.933+0000] {processor.py:186} INFO - Started process (PID=547) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:13:38.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:13:38.936+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:38.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:13:38.956+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag4' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:13:38.977+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:38.977+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:13:38.999+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:13:38.999+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag4 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:13:39.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.090 seconds
+[2024-10-18T13:14:09.159+0000] {processor.py:186} INFO - Started process (PID=558) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:14:09.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:14:09.160+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:14:09.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:14:09.174+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag4' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:14:09.193+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:14:09.193+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:14:09.208+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:14:09.208+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag4 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:14:09.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.068 seconds
+[2024-10-18T13:14:39.445+0000] {processor.py:186} INFO - Started process (PID=569) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:14:39.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:14:39.447+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:14:39.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:14:39.465+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag4' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:14:39.484+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:14:39.484+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:14:39.504+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:14:39.504+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag4 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:14:39.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.080 seconds
+[2024-10-18T13:15:09.665+0000] {processor.py:186} INFO - Started process (PID=580) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:15:09.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:15:09.668+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:09.667+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:15:09.689+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag4' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:15:09.712+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:09.712+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:15:09.737+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:09.736+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag4 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:15:09.766+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.107 seconds
+[2024-10-18T13:15:32.899+0000] {processor.py:186} INFO - Started process (PID=591) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:15:32.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:15:32.901+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:32.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:15:32.927+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag5' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:15:33.021+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:33.020+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:pipeline_dag5
+[2024-10-18T13:15:33.031+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:33.031+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:pipeline_dag5
+[2024-10-18T13:15:33.039+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:33.039+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:pipeline_dag5
+[2024-10-18T13:15:33.050+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:33.050+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:pipeline_dag5
+[2024-10-18T13:15:33.059+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:33.058+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:pipeline_dag5
+[2024-10-18T13:15:33.066+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:33.066+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:pipeline_dag5
+[2024-10-18T13:15:33.074+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:33.073+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:pipeline_dag5
+[2024-10-18T13:15:33.074+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:33.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:15:33.088+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:33.088+0000] {dag.py:3262} INFO - Creating ORM DAG for pipeline_dag5
+[2024-10-18T13:15:33.098+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:33.097+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag5 to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-18T13:15:33.114+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.221 seconds
+[2024-10-18T13:15:35.172+0000] {processor.py:186} INFO - Started process (PID=596) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:15:35.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:15:35.174+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:35.174+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:15:35.200+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:15:35.287+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:35.284+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:pipeline_dag6
+[2024-10-18T13:15:35.297+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:35.296+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:pipeline_dag6
+[2024-10-18T13:15:35.304+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:35.303+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:pipeline_dag6
+[2024-10-18T13:15:35.312+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:35.311+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:pipeline_dag6
+[2024-10-18T13:15:35.317+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:35.317+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:pipeline_dag6
+[2024-10-18T13:15:35.324+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:35.324+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:pipeline_dag6
+[2024-10-18T13:15:35.331+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:35.330+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:pipeline_dag6
+[2024-10-18T13:15:35.331+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:35.331+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:15:35.343+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:35.343+0000] {dag.py:3262} INFO - Creating ORM DAG for pipeline_dag6
+[2024-10-18T13:15:35.354+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:15:35.354+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-17 00:00:00+00:00, run_after=2024-10-18 00:00:00+00:00
+[2024-10-18T13:15:35.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.206 seconds
+[2024-10-18T13:16:05.591+0000] {processor.py:186} INFO - Started process (PID=615) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:16:05.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:16:05.593+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:16:05.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:16:05.612+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:16:05.634+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:16:05.633+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:16:05.654+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:16:05.654+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:16:05.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.095 seconds
+[2024-10-18T13:16:15.677+0000] {processor.py:186} INFO - Started process (PID=620) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:16:15.678+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:16:15.679+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:16:15.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:16:15.705+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:16:15.800+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:16:15.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:16:15.948+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:16:15.948+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:16:15.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.299 seconds
+[2024-10-18T13:16:46.191+0000] {processor.py:186} INFO - Started process (PID=639) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:16:46.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:16:46.193+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:16:46.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:16:46.212+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:16:46.232+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:16:46.232+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:16:46.251+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:16:46.251+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:16:46.267+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.083 seconds
+[2024-10-18T13:17:16.394+0000] {processor.py:186} INFO - Started process (PID=650) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:17:16.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:17:16.396+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:17:16.396+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:17:16.416+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:17:16.439+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:17:16.439+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:17:16.458+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:17:16.458+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:17:16.476+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.087 seconds
+[2024-10-18T13:17:46.671+0000] {processor.py:186} INFO - Started process (PID=661) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:17:46.672+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:17:46.673+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:17:46.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:17:46.689+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:17:46.707+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:17:46.707+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:17:46.726+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:17:46.726+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:17:46.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.075 seconds
+[2024-10-18T13:18:16.878+0000] {processor.py:186} INFO - Started process (PID=672) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:18:16.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:18:16.880+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:18:16.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:18:16.896+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:18:16.919+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:18:16.919+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:18:16.938+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:18:16.938+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:18:16.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.081 seconds
+[2024-10-18T13:18:47.136+0000] {processor.py:186} INFO - Started process (PID=683) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:18:47.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:18:47.138+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:18:47.138+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:18:47.155+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:18:47.175+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:18:47.175+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:18:47.196+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:18:47.195+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:18:47.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.082 seconds
+[2024-10-18T13:19:17.374+0000] {processor.py:186} INFO - Started process (PID=694) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:19:17.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:19:17.376+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:19:17.376+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:19:17.396+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:19:17.418+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:19:17.418+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:19:17.442+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:19:17.442+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:19:17.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.089 seconds
+[2024-10-18T13:19:47.615+0000] {processor.py:186} INFO - Started process (PID=705) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:19:47.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:19:47.618+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:19:47.618+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:19:47.634+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:19:47.653+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:19:47.653+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:19:47.674+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:19:47.674+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:19:47.694+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.083 seconds
+[2024-10-18T13:20:17.865+0000] {processor.py:186} INFO - Started process (PID=716) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:20:17.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:20:17.867+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:20:17.867+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:20:17.884+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:20:17.902+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:20:17.902+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:20:17.921+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:20:17.921+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:20:17.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.078 seconds
+[2024-10-18T13:20:48.092+0000] {processor.py:186} INFO - Started process (PID=727) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:20:48.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:20:48.094+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:20:48.094+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:20:48.110+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:20:48.132+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:20:48.132+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:20:48.148+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:20:48.148+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:20:48.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.081 seconds
+[2024-10-18T13:21:18.349+0000] {processor.py:186} INFO - Started process (PID=738) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:21:18.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:21:18.351+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:21:18.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:21:18.368+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:21:18.386+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:21:18.386+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:21:18.403+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:21:18.403+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:21:18.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.074 seconds
+[2024-10-18T13:21:48.572+0000] {processor.py:186} INFO - Started process (PID=749) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:21:48.573+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:21:48.574+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:21:48.574+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:21:48.591+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:21:48.610+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:21:48.610+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:21:48.628+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:21:48.627+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:21:48.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.078 seconds
+[2024-10-18T13:22:18.837+0000] {processor.py:186} INFO - Started process (PID=760) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:22:18.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:22:18.838+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:22:18.838+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:22:18.860+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:22:18.883+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:22:18.882+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:22:18.908+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:22:18.908+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:22:18.929+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.097 seconds
+[2024-10-18T13:22:49.058+0000] {processor.py:186} INFO - Started process (PID=772) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:22:49.059+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:22:49.060+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:22:49.059+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:22:49.079+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:22:49.100+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:22:49.100+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:22:49.121+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:22:49.121+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:22:49.139+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.085 seconds
+[2024-10-18T13:23:19.322+0000] {processor.py:186} INFO - Started process (PID=783) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:23:19.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:23:19.324+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:23:19.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:23:19.344+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:23:19.364+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:23:19.363+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:23:19.384+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:23:19.384+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:23:19.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.087 seconds
+[2024-10-18T13:23:49.540+0000] {processor.py:186} INFO - Started process (PID=794) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:23:49.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:23:49.542+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:23:49.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:23:49.560+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:23:49.580+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:23:49.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:23:49.602+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:23:49.601+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:23:49.621+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.085 seconds
+[2024-10-18T13:24:19.839+0000] {processor.py:186} INFO - Started process (PID=805) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:24:19.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:24:19.841+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:24:19.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:24:19.857+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:24:19.875+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:24:19.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:24:19.895+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:24:19.895+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:24:19.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.080 seconds
+[2024-10-18T13:24:50.051+0000] {processor.py:186} INFO - Started process (PID=816) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:24:50.052+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:24:50.053+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:24:50.053+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:24:50.073+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:24:50.098+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:24:50.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:24:50.118+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:24:50.117+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:24:50.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.090 seconds
+[2024-10-18T13:25:20.324+0000] {processor.py:186} INFO - Started process (PID=827) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:25:20.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:25:20.325+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:25:20.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:25:20.339+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:25:20.356+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:25:20.356+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:25:20.372+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:25:20.372+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:25:20.394+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.074 seconds
+[2024-10-18T13:25:50.540+0000] {processor.py:186} INFO - Started process (PID=838) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:25:50.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:25:50.542+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:25:50.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:25:50.562+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:25:50.582+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:25:50.582+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:25:50.602+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:25:50.602+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:25:50.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.084 seconds
+[2024-10-18T13:26:20.802+0000] {processor.py:186} INFO - Started process (PID=849) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:26:20.803+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:26:20.804+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:26:20.804+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:26:20.824+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:26:20.844+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:26:20.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:26:20.865+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:26:20.865+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:26:20.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.084 seconds
+[2024-10-18T13:26:51.022+0000] {processor.py:186} INFO - Started process (PID=860) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:26:51.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:26:51.024+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:26:51.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:26:51.044+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:26:51.065+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:26:51.064+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:26:51.086+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:26:51.085+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:26:51.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.088 seconds
+[2024-10-18T13:27:21.276+0000] {processor.py:186} INFO - Started process (PID=871) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:27:21.277+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:27:21.278+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:27:21.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:27:21.296+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:27:21.317+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:27:21.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:27:21.338+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:27:21.338+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:27:21.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.086 seconds
+[2024-10-18T13:27:51.492+0000] {processor.py:186} INFO - Started process (PID=882) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:27:51.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:27:51.494+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:27:51.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:27:51.512+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:27:51.533+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:27:51.533+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:27:51.555+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:27:51.554+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:27:51.581+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.094 seconds
+[2024-10-18T13:28:21.760+0000] {processor.py:186} INFO - Started process (PID=893) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:28:21.760+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:28:21.762+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:28:21.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:28:21.779+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:28:21.802+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:28:21.802+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:28:21.825+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:28:21.824+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:28:21.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.095 seconds
+[2024-10-18T13:28:51.988+0000] {processor.py:186} INFO - Started process (PID=904) to work on /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:28:51.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airline_data_pipeline_dag.py for tasks to queue
+[2024-10-18T13:28:51.991+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:28:51.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:28:52.007+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag6' retrieved from /opt/airflow/dags/airline_data_pipeline_dag.py
+[2024-10-18T13:28:52.029+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:28:52.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-18T13:28:52.050+0000] {logging_mixin.py:190} INFO - [2024-10-18T13:28:52.050+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag6 to 2024-10-18 00:00:00+00:00, run_after=2024-10-19 00:00:00+00:00
+[2024-10-18T13:28:52.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airline_data_pipeline_dag.py took 0.086 seconds

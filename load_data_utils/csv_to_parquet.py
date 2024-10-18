@@ -10,10 +10,10 @@ spark = SparkSession.builder \
 
 
 
-df = spark.read \
-    .option("header", "true") \
-    .option("inferSchema", "true") \
-    .csv('../raw_data/structured_data/2018/Flights_2018_1.csv')
+# df = spark.read \
+#     .option("header", "true") \
+#     .option("inferSchema", "true") \
+#     .csv('../raw_data/structured_data/2018/Flights_2018_1.csv')
 
 columns_of_interest = [
     "Month",
